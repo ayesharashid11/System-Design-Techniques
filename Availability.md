@@ -1,10 +1,14 @@
 # Avaibility
 availability refers to the proportion of time that a system or service is operational and accessible for use.
 # How to achive high avaibility
-Redundancy: Use redundant servers or components so that, in the event of a failure, another can take over without any problems. 
+Avaibility is higher in microsevices
+Fault Tolerant α Availibity
+1. use distributed system
+2. replication
+3. Redundancy: Use redundant servers or components so that, in the event of a failure, another can take over without any problems. 
 Data centers, networking, and hardware redundancy are a few examples of this.
 
-Load balancing: Incoming requests are divided among several servers or resources to enhance system performance and fault 
+4. Load balancing: Incoming requests are divided among several servers or resources to enhance system performance and fault 
 tolerance while avoiding overload on any one part.
 
 # Redundancy
@@ -23,3 +27,4 @@ It ensures that even if one server goes down, the data is still accessible from 
 
 How It Works:
 Data or processes are duplicated across servers. Depending on the system, these replicas might be updated in real-time or at scheduled intervals.
+

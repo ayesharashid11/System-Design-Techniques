@@ -29,3 +29,15 @@ Static Content
 -Read Intensive case
 -Appliation Server cache
 -CDN cache
+
+# Cahce Eviction
+A process of deleting  cached Data
+
+1. Least Recently Used(LRU)
+When the cache hits its capacity limit, the Least Recently Used (LRU) cache eviction policy is designed to eliminate the item that has been accessed the least recently. Items that have not been accessed for a longer period of time are assumed to be less likely to be used in the near future.
+2. Least Frequently Used(LFU)
+The least frequently accessed entries are eliminated first under the LFU cache eviction policy. It is based on the idea that things that are used the least are less likely to be needed later.
+3. First-In-First-Out(FIFO)
+First-In-First-Out (FIFO) is a cache eviction policy that removes the oldest item from the cache when it becomes full. In this strategy, data is stored in the cache in the order it arrives, and the item that has been present in the cache for the longest time is the first to be evicted
+4. Random Replacement
+Random Replacement is a cache eviction policy where, when the cache is full and a new item needs to be stored, a randomly chosen existing item is evicted to make room. 
